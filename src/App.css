@@ -50,3 +50,32 @@ body {
   font-weight: 700;
   padding: 10px 15px;
 }
+
+
+@media only screen and (max-width: 450px) {
+  
+  body {
+    padding: 0px;
+  }
+  
+  #root {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .App {
+    width: 98%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  .dice-face {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .dice-container {
+    gap: 10px;
+  }
+}
